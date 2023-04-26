@@ -31,7 +31,7 @@ public class DivArrayDemo {
 		
 		catch(ArithmeticException Ae)
 		{
-
+			Ae.printStackTrace();
 		}
 		catch(ArrayIndexOutOfBoundsException Ab)
 		{
