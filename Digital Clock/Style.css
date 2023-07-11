@@ -1,0 +1,32 @@
+
+
+body {
+    background: black ;
+}
+
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    color: red;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+	font-family: italic;
+}
+
+.time {
+    background: brown;
+    color: #FFFFFF;
+    font-size: 100px;
+    width: 150px;
+    margin: 0 10px;
+    text-align: center;
+	font-family: italic;
+}
